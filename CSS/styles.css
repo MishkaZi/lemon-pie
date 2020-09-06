@@ -1,0 +1,44 @@
+/* general */
+img {
+  width: 10rem;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+  
+}
+h2 {
+  font-weight: lighter;
+  transform: scale(1, 1.5);
+}
+hr {
+  border-style: inset;
+  border-width: 0.1rem;
+}
+
+/* classes */
+.main {
+  margin: 0.3rem 8rem 0.3rem 8rem;
+}
+.heading {
+  background-color: #f3f3f3;
+  font-size: 0.8rem;
+  color: #bcb31a;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  font-size-adjust: inherit;
+  font-family: sans-serif;
+  line-height: 2.2rem;
+}
+.user-comments {
+  margin: 0.3rem 2rem 0.3rem 2rem;
+}
+
+.underline-dotted{
+    border-bottom: dotted 0.02rem;
+    text-decoration: underline;
+}
+
+p.comment {
+  background-color: #fffdb4;
+}
